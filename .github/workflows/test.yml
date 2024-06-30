@@ -9,7 +9,7 @@ on:
     paths-ignore:
       - "**.md"
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 jobs:
   test:
